@@ -29,6 +29,7 @@
  * 
  * Time complexity for this approach:=> n/2 + k/2 + (n-k)/2 = n
  * T.C = O(N)
+ * Space complexity = O(1), constant as we are only creating N, P1 and P2 integer variables.
  */
 
 function rotateLastKElements(arr, k){
